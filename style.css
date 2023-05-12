@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(59, 57, 57, 0.205);
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+#add-button {
+    background-color: blue;
+    color: white;
+    font-size: 1.4rem;
+    
+
+}
+p {
+    color: rgb(32, 196, 11);
+}
+
+.input-heading input{
+    margin-bottom: 10px;
+    font-size:1rem;
+    padding:10px;
+    width: 80%;
+    border:2px solid grey;
+    border-radius:7px;
+    list-style: none;
+}
+
+textarea {
+    width: 100%;
+    height:100px;
+    border-radius:4px;
+    box-shadow: 0 0 3px;
+}
+.main button{
+    flex:3;
+    margin-bottom: 15px;
+}
+.content-list {
+    width:100%;
+    background-color:#fff;
+    padding:5px;
+    border-bottom: 1px solid orange;
+    border-radius:3px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.content-list li{
+    font-size: 1.2rem;
+    flex:4;
+    padding:3px;
+    margin:2px;
+    list-style: none;
+}
+.content-list button{
+    font-size:1.2rem ;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+.content-list .edit-content{
+    color:green;
+    border:1px solid green;
+    border-radius: 5px;
+}
+.content-list .edit-content:hover{
+    color:white;
+    background-color: green;
+}
+.content-list .delete-content{
+    color:red;
+    border:1px solid red;
+    border-radius: 5px;
+}
+.content-list .delete-content:hover{
+    color:white;
+    background-color: red;
+}
